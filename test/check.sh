@@ -434,7 +434,7 @@ execute_testcases() {
    fi
 
    echo "Start running tests for $config_name"
-  $TEST_DIRECTORY/pgagroal_test $PROJECT_DIRECTORY $PG_USER_NAME $PG_DATABASE
+  $TEST_DIRECTORY/pgagroal-test $PROJECT_DIRECTORY $PG_USER_NAME $PG_DATABASE
    test_result=$?
    
    
