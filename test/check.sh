@@ -211,7 +211,7 @@ cleanup() {
             --instr-profile=$COVERAGE_DIR/coverage.profdata \
             --format=text > $COVERAGE_DIR/coverage-pgagroal.txt
          echo "Generating $COVERAGE_DIR/coverage-pgagroal-cli.txt"
-         llvm-cov show $BIN_PATHY/pgagroal-cli \
+         llvm-cov show $BIN_PATH/pgagroal-cli \
             --instr-profile=$COVERAGE_DIR/coverage.profdata \
             --format=text > $COVERAGE_DIR/coverage-pgagroal-cli.txt
          echo "Generating $COVERAGE_DIR/coverage-pgagroal-admin.txt"
