@@ -89,7 +89,7 @@ if (check)
     endif()
   endif()
 
-  add_executable(pgagroal_test runner.c ${SOURCES})
+  add_executable(pgagroal-test runner.c ${SOURCES})
     if (CMAKE_C_COMPILER_ID STREQUAL "Clang")
     target_compile_options(pgagroal-test PRIVATE
       -fprofile-instr-generate
