@@ -148,7 +148,7 @@ jobs:
           echo "## Coverage Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat /tmp/pgexporter-test/coverage/coverage-report-*.txt >> $GITHUB_STEP_SUMMARY
+          cat /tmp/pgagroal-test/coverage/coverage-report-*.txt >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload All Coverage Reports as Artifact
